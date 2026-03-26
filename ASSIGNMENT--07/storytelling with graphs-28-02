@@ -1,0 +1,29 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Sample dataset
+data = {
+    "Category": ["A", "B", "C", "D"],
+    "Values": [20, 35, 30, 15]
+}
+
+df = pd.DataFrame(data)
+
+# Bar Chart
+plt.bar(df["Category"], df["Values"])
+plt.title("Bar Chart Example")
+plt.xlabel("Category")
+plt.ylabel("Values")
+plt.show()
+
+# Pie Chart
+plt.pie(df["Values"], labels=df["Category"], autopct='%1.1f%%')
+plt.title("Pie Chart Example")
+plt.show()
+
+# Histogram
+plt.hist(df["Values"], bins=5)
+plt.title("Histogram Example")
+plt.xlabel("Values")
+plt.ylabel("Frequency")
+plt.show()

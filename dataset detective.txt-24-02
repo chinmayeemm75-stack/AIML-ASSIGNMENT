@@ -1,0 +1,15 @@
+import pandas as pd
+
+data = pd.read_csv("Students.csv")
+
+print("Top 5 rows of Students:")
+print(data.head())
+
+print("\nHighest values in each column:")
+print(data.max())
+
+print("\nMissing values in each column:")
+print(data.isnull().sum())
+
+print("\nStudents summary:")
+print(data.describe())

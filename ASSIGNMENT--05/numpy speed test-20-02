@@ -1,0 +1,18 @@
+import time
+import numpy as np
+
+start = time.time()
+
+list_numbers = list(range(1000000))
+list_result = [x * 2 for x in list_numbers]
+
+end = time.time()
+print("Python List Execution Time:", end - start)
+
+start = time.time()
+
+array_numbers = np.arange(1000000)
+array_result = array_numbers * 2
+
+end = time.time()
+print("NumPy Array Execution Time:", end - start)
