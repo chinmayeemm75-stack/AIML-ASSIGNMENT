@@ -1,0 +1,31 @@
+AI Around Me – 10 Daily Life Applications
+
+1.Google Maps
+Uses ML to predict traffic, suggest fastest routes, and estimate arrival time based on past and real-time data.
+
+2.YouTube
+Recommends videos using ML models that learn from your watch history, likes, and viewing patterns.
+
+3.Amazon
+Suggests products using recommendation systems based on your browsing history and similar users’ behavior.
+
+4.Gmail
+Uses ML for spam detection and smart replies by analyzing email content and user behavior.
+
+5.Google Assistant
+Uses speech recognition and NLP models to understand voice commands and respond intelligently.
+
+6.Instagram
+Uses AI for face detection, filters, and personalized feed ranking based on user interaction.
+
+7.WhatsApp
+Applies ML for spam detection and auto-suggestions (like predictive text and emojis).
+
+8.Spotify
+Recommends songs using ML models trained on listening history and user preferences.
+
+9.Google Photos
+Uses computer vision ML to recognize faces, objects, and organize photos automatically.
+
+10.Phone Pay
+Uses ML for fraud detection by analyzing transaction patterns and identifying unusual activities.
