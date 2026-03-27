@@ -1,0 +1,18 @@
+import string
+
+text = "Hey!!! How r u 😊? I am learning AI & ML, it's awesome!!!"
+
+stop_words = ["i", "am", "how", "are", "is", "the", "and", "u"]
+
+text = text.lower()
+
+text = text.translate(str.maketrans('', '', string.punctuation))
+
+words = text.split()
+
+clean_words = [word for word in words if word not in stop_words]
+
+clean_text = " ".join(clean_words)
+
+print("Original Text:", text)
+print("Cleaned Text:", clean_text)

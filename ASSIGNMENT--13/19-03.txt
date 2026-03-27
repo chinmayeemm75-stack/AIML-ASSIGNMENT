@@ -1,0 +1,25 @@
+Assignment Name: Mini Project Proposal
+
+Problem Statement:
+The objective of this project is to develop a Sentiment Analysis System that classifies user reviews or text data into positive, negative, or neutral categories. This helps in understanding customer opinions and feedback.
+
+Dataset:
+The dataset will consist of text data such as product reviews, social media comments, or feedback messages. It may include labeled data indicating whether the sentiment is positive or negative. Example sources include online reviews or sample datasets.
+
+Algorithm:
+
+The following machine learning algorithms can be used:
+Logistic Regression
+Naïve Bayes
+(Optional) Support Vector Machine (SVM)
+
+Before applying the algorithm, the text will be processed using:
+Tokenization
+Stop word Removal
+Text Vectorization (TF-IDF or Bag of Words)
+Expected Output:
+
+The system should:
+Classify input text into positive, negative, or neutral sentiment
+Provide accurate predictions based on trained data
+Help in analyzing customer opinions effectively

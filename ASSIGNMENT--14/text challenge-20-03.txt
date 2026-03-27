@@ -1,0 +1,44 @@
+Assignment Name: Text Challenges
+
+Objective:
+To analyze real-world messy text data and identify common issues such as slang, emojis, and typographical errors, and suggest appropriate preprocessing techniques.
+
+Sample Messy Sentences:
+Heyyy!!! How r u??? 😊
+I'm sooo tired rn 😴
+This movie is lit 🔥🔥
+LOL that was funny 😂
+Plzz send me the notes ASAP
+I cant believe this happened!!!
+OMG!!! This is amazing 😍
+That food was yummyyy 😋
+U should try this app 👍
+Idk what to do now 😕
+This is gr8 work 👏
+Hahaha 😂😂 that joke!
+Wat r u doing??
+Thnx for helping me 😊
+This product is sooo bad 😡
+I luv this place ❤️
+It’s not working properly 😤
+Bcoz of rain, match cancelled ☔
+That was awesomeeee!!!
+Gonna sleep now 😴
+Issues Identified:
+Slang/Short Forms: r, u, plzz, lol, idk, thnx, luv, bcoz
+Emojis: 😊 😂 😴 🔥 😍 😡 ❤️
+Typos/Repetition: heyyy, sooo, yummyyy, awesomeeee
+Punctuation Noise: !!! ???
+Inconsistent Case: Mix of uppercase and lowercase
+Preprocessing Techniques Required:
+Convert text to lowercase
+Remove punctuation and special characters
+Remove or handle emojis
+Correct spelling and repeated characters
+Expand slang/abbreviations
+Remove stopwords
+Apply tokenization
+Use lemmatization or stemming
+Conclusion:
+
+This assignment helped in understanding the challenges of real-world text data and the importance of preprocessing before applying machine learning models. Proper text cleaning improves the accuracy and efficiency of NLP systems.
