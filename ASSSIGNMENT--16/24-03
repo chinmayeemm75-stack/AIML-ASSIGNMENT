@@ -1,0 +1,20 @@
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+docs = [
+    "AI is transforming the world",
+    "Machine learning is a part of AI",
+    "AI helps in automation",
+    "Deep learning is powerful",
+    "Automation improves efficiency"
+]
+
+vectorizer = TfidfVectorizer()
+X = vectorizer.fit_transform(docs)
+
+feature_names = vectorizer.get_feature_names_out()
+
+for i, doc in enumerate(X.toarray()):
+    print(f"\nDocument {i+1} top words:")
+    top_indices = doc.argsort()[-3:]
+    for index in top_indices:
+        print(feature_names[index])
