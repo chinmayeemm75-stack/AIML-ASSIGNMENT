@@ -1,0 +1,50 @@
+content = """Assignment Name: Break the AI
+
+Activities Performed:
+On 28th March 2026, an assignment titled “Break the AI” was conducted to explore the limitations and behavior of Artificial Intelligence systems, particularly Large Language Models (LLMs). The main objective of this assignment was to understand how AI models respond to complex, ambiguous, or misleading inputs and to analyze their weaknesses.
+
+During the assignment, various tricky and confusing prompts were designed and tested on an AI model. These prompts included sentences with ambiguous meanings, incomplete information, contradictory instructions, sarcasm, and logical traps. For example, questions with multiple interpretations or unclear context were used to observe how the AI handles uncertainty.
+
+It was observed that the AI model sometimes produced incorrect, inconsistent, or vague responses when the input prompt lacked clarity or contained misleading information. In some cases, the model attempted to generate an answer even when the question itself was logically flawed.
+
+Learning Outcomes:
+- Understood the limitations and challenges of AI systems
+- Learned how ambiguous inputs affect AI responses
+- Gained insight into AI decision-making
+
+Skills Acquired:
+- Critical thinking
+- Analytical skills
+- AI evaluation skills
+
+Conclusion:
+This assignment helped understand AI limitations and importance of clear prompts.
+
+
+--------------------------------------------------
+
+Assignment Name: Prompt Engineer
+
+Activities Performed:
+On 30th March 2026, an assignment titled “Prompt Engineer” was conducted to understand how input prompts influence AI output.
+
+Weak prompts were vague (e.g., “Write a resume”), while strong prompts were detailed and specific. Strong prompts produced better results.
+
+Learning Outcomes:
+- Understood prompt engineering
+- Learned difference between weak and strong prompts
+
+Skills Acquired:
+- Prompt design
+- Communication skills
+- Creativity
+
+Conclusion:
+Prompt engineering is important for getting accurate AI responses.
+"""
+
+# Save file
+with open("assignment.txt", "w", encoding="utf-8") as file:
+    file.write(content)
+
+print("Assignment saved successfully!")
